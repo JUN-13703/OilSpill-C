@@ -1,0 +1,9 @@
+[{
+  "directory": "/home/pi/Desktop/OilSpill-C/OilSpill_C",
+  "command": "/usr/bin/g++ -std=c++11 -std=c++14 -g -O0 -Wall -I. -I. -MG -MP -MT./Debug/main.cpp.o -MF./Debug/main.cpp.o.d -MM main.cpp",
+  "file": "/home/pi/Desktop/OilSpill-C/OilSpill_C/main.cpp"
+ }, {
+  "directory": "/home/pi/Desktop/OilSpill-C/OilSpill_C",
+  "command": "/usr/bin/g++ -c /home/pi/Desktop/OilSpill-C/OilSpill_C/main.cpp -std=c++11 -std=c++14 -g -O0 -Wall -o ./Debug/main.cpp.o -I. -I.",
+  "file": "/home/pi/Desktop/OilSpill-C/OilSpill_C/main.cpp"
+ }]

@@ -9,8 +9,8 @@
 #include <opencv2/opencv.hpp>
 #include "SeekCam.h"
 
-#define THERMAL_WIDTH       207
-#define THERMAL_HEIGHT      154
+#define THERMAL_WIDTH       206
+#define THERMAL_HEIGHT      156
 #define THERMAL_RAW_WIDTH   208
 #define THERMAL_RAW_HEIGHT  156
 #define THERMAL_RAW_SIZE    (THERMAL_RAW_WIDTH * THERMAL_RAW_HEIGHT)

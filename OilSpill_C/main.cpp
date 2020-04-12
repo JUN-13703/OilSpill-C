@@ -29,7 +29,7 @@ int main(int argc, char **argv)
 		//   cv::waitKey(0);
         //}
     //}
-	imwrite("./test_medfilt.png",b_frame);
+	imwrite("./cookingoil.png",b_frame);
 	
 	return 0;
 }

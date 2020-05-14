@@ -17,19 +17,19 @@ int main(int argc, char **argv)
             return -1;
         }
 
-        cv::normalize(frame, g_frame, 0, 65535, cv::NORM_MINMAX);
+        //cv::normalize(frame, g_frame, 0, 65535, cv::NORM_MINMAX);
 		//g_frame.convertTo(f_frame,  CV_32F);
-		cv::medianBlur(g_frame,b_frame,3);
+		cv::medianBlur(frame,b_frame,3);
 		//b_frame.convertTo(frame, CV_16U);
 		//cv::normalize(frame,  g_frame,0,65535,cv::NORM_MINMAX);
-        cv::imshow("LWIR", b_frame);
+        //cv::imshow("LWIR", b_frame);
 
         //char c = cv::waitKey(10);
         //if (c == 's') {
 		//   cv::waitKey(0);
         //}
     //}
-	imwrite("./cookingoil.png",b_frame);
+	imwrite("./temptest.png",b_frame);
 	
 	return 0;
 }
